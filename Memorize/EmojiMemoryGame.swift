@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-class EmojiMemoryGame{
-    private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
+class EmojiMemoryGame: ObservableObject{
+    @Published private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
     static func createMemoryGame() -> MemoryGame<String> {
-        let emojis: Array<String> = ["🇧🇷","😎","🇺🇸","👉","👍"]
+        let emojis: Array<String> = ["🇧🇷","😎","🍊","👉","👍"]
         
         // Generate random number of pairs, between 2 and 5
         let numberOfPairsOfCards = Int.random(in: 2...5)
