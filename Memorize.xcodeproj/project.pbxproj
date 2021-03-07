@@ -20,6 +20,7 @@
 		F199565C25E31D71001BDA28 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199565B25E31D71001BDA28 /* Array+Identifiable.swift */; };
 		F199566125E32B7C001BDA28 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199566025E32B7C001BDA28 /* Array+Only.swift */; };
 		F1B9C09325F51739008D402B /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9C09225F51739008D402B /* Pie.swift */; };
+		F1B9C09825F51EAF008D402B /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B9C09725F51EAF008D402B /* Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		F199565B25E31D71001BDA28 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		F199566025E32B7C001BDA28 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		F1B9C09225F51739008D402B /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		F1B9C09725F51EAF008D402B /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				F10D8A6125D8481200055629 /* MemorizeApp.swift */,
 				F10D8A6325D8481200055629 /* EmojiMemoryGameView.swift */,
+				F1B9C09725F51EAF008D402B /* Cardify.swift */,
 				F1B9C09225F51739008D402B /* Pie.swift */,
 				F199565125E312F2001BDA28 /* Grid.swift */,
 				F199565B25E31D71001BDA28 /* Array+Identifiable.swift */,
@@ -288,6 +291,7 @@
 				F199565225E312F2001BDA28 /* Grid.swift in Sources */,
 				F199565C25E31D71001BDA28 /* Array+Identifiable.swift in Sources */,
 				F10D8A9525D86E5900055629 /* EmojiMemoryGame.swift in Sources */,
+				F1B9C09825F51EAF008D402B /* Cardify.swift in Sources */,
 				F199566125E32B7C001BDA28 /* Array+Only.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
